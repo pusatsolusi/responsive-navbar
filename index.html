@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">My<span>Brand</span></a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="closeMenu()">Kontak</a>
+                </li>
+            </ul>
+
+            <div class="hamburger" onclick="mobileMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Selamat Datang di Website Kami</h1>
+        <p>Coba kecilkan ukuran browser Anda (resize) atau buka di HP untuk melihat perubahan pada Navigation Bar. Menu
+            akan berubah menjadi ikon hamburger dan meluncur dari samping saat diklik.</p>
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
